@@ -2,7 +2,7 @@ const  buttonEl = document.getElementById("button");
 const quoteEl = document.getElementById("quote");
 const authorEl = document.getElementById("author");
 
-const apiUrl ="https://api.quotable.io/random";
+const apiUrl ="https://quotes-api-self.vercel.app/quote";
 
  async function getquote(){
     
